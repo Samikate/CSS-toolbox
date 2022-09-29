@@ -1,0 +1,47 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: 5rem 10rem 5rem;
+    text-align: center;
+    gap: 2%;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border: 2px dashed blue
+}
+#row{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+    border: 2px dashed blue
+}
+content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+    border: 2px dashed blue
+}
+.ads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+    border: 2px dashed blue
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border: 2px dashed blue
+}
