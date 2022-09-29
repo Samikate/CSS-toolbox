@@ -4,10 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>h1 { color: red; }</style>
+    <style>
+        .wrapper{
+            text-align: center;
+        }
+        :not(full-bleed){
+            max-width: 680px;
+            margin-left: 15%;
+            margin-right: 15%;
+            text-align: justify;
+        }
+        h1{
+            text-align: center;
+        }
+        .full-bleed{
+            width: 300%;
+            margin-left:-100%;
+            margin-right: -100%;
+        }
+
+    </style>
     <title>Document</title>
 </head>
-<body>
-    <h1>Hello World!!!!</h1>
+<body class="wrapper">
+   <h1>titre titre titre</h1>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem impedit vitae voluptate earum. Unde quam enim aliquid, quisquam inventore veritatis alias voluptate, laboriosam id doloribus minus deleniti debitis in provident? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos hic id debitis perspiciatis, architecto blanditiis iusto reprehenderit, officia adipisci dolorum voluptatem, quae quibusdam possimus? Adipisci possimus aspernatur in debitis fugiat!
+   </p>
+   <img class="full-bleed" src="https://picsum.photos/680/300"/>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus incidunt ipsam placeat veniam doloremque, totam corporis facilis, error culpa dicta reiciendis suscipit. Excepturi nemo rem tempora inventore dolor non quo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio enim delectus consectetur hic est, dolorem molestiae eum nisi rerum quibusdam nobis? Eligendi ex magni error amet ipsum, rem dignissimos tempora.</p>
 </body>
 </html>

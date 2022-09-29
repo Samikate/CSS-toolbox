@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> body { 
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;      
+
+    }
+    header{
+        flex:0.1; 
+        background-color: aqua;
+        ;
+    }
+    nav{
+        flex:0.4;
+        background-color: blueviolet;
+    }
+    content{
+        flex: auto;
+        background-color: deeppink;
+    }
+    .ads{
+        flex:0.4;
+        background-color: blueviolet;
+    }
+    #row{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 15rem;
+        
+    }
+    footer{
+        flex:0.1;
+        background-color: aqua;
+    }
+    </style>
+</head>
+<body>
+  <header>Header</header>  
+  <div id="row">
+    <nav>Nav</nav>
+    <content>Content</content>
+    <div class="ads">Ads</div>
+</div>
+  <footer>Footer</footer>
+</body>
+</html>
