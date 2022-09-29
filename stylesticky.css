@@ -1,0 +1,15 @@
+body {
+    min-height: 200vh;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+     
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+    box-shadow: 2px 2px 1px grey;
+}
